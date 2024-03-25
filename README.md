@@ -1,18 +1,24 @@
-# Getting Started with Create React App
+# Portfolio website built in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was a website built to showcase my technical skills, web design skills.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Build a React website in 24 hours to showcase the following:
 
-### `npm start`
+My technical skill set
+My web design skill set
+My projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+HTML5
+CSS3
+JavaScript (ES6)
+SCSS
+Git
+GitHub
+React
+Node.js
 
 ### `npm test`
 

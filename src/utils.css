@@ -1,0 +1,44 @@
+.m-auto{
+    margin: auto;
+}
+
+.w-page{
+    width: 60vw;
+}
+
+.p-left{
+    padding-left: 40px;
+}
+
+.l-space{
+    letter-spacing: 2px;
+}
+
+.page-text{
+    font-size: 25px;
+    margin-top: 75px;
+  }
+
+.m-top1{
+    margin-top: 15px;
+}
+
+.f-weight1{
+    font-weight: 500;
+}
+
+.p-top-Home{
+    padding-top: 75px;
+}
+
+.p-top-About{
+    padding-top: 25px;
+}
+
+.p-side-Contact{
+    padding: 0 40px;
+}
+
+.p-top-Contact{
+    padding-top: 75px;
+}

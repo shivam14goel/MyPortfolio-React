@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Merriweather&display=swap');
+
+*{
+  margin: 0;
+  padding: 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* NAVBAR */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 10vh;
+  width: 100vw;
+  background-color: aquamarine;
+}
+
+.nav-name{
+  font-family: 'DynaPuff', cursive;
+  color: rgb(35, 115, 180);
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 100px;
+  letter-spacing: 1px;
+}
+
+.nav-list{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  margin: 0 30px;
+  background-color: black;
+    /* color: #fff; */
+    /* max-width: 100%; */
+    /* overflow-x: auto; */
+    /* vertical-align: middle; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%), 0 -1px 0 rgb(0 0 0 / 50%);
+    -moz-box-shadow: inset 0 1px 10px rgba(0,0,0,0.3),0 1px 0 rgba(255,255,255,0.1),0 -1px 0 rgba(0,0,0,0.5);
+    box-shadow: inset 0 1px 10px rgb(0 0 0 / 30%), 0 1px 0 rgb(255 255 255 / 10%), 0 -1px 0 rgb(0 0 0 / 50%);
+    font-family: monospace, monospace;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 10px;
+  letter-spacing: 1px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* .nav-link:hover{
+  border: 5px solid white;
+} */
+
+/* HOME */
+
+.HomePage-content{
+  height: 70vh;
+  background-color: rgb(248, 222, 188);
+  border-radius: 25px; 
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Hand-btmj{
+  font-size: 45px;
+}
+
+.home-name{
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.homepage-link{
+  margin-top: 50px;
+}
+
+.Resume-button{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  /* border: 5px solid black; */
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-weight: 500;
+}
+
+/* .Resume-button:hover{
+  text-decoration: underline; 
+} */
+
+/* ABOUT */
+
+.AboutPage-content{
+  height: 70vh;
+  background-color: rgb(248, 222, 188);
+  border-radius: 25px;
+}
+
+.html{
+  /* color: rgb(235, 56, 56); */
+  background-color: red;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.css{
+  background-color: rgb(16, 16, 235);
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.js{
+  background-color: yellow;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.react{
+  background-color: rgb(76, 187, 224);
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.node{
+  background-color: rgb(8, 105, 8);
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.express{
+  background-color: black;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.mongo{
+  background-color: rgb(40, 179, 40);
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.git{
+  background-color: orangered;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* CONTACT */
+
+.ContactPage-content{
+  height: 70vh;
+  background-color: rgb(248, 222, 188);
+  border-radius: 25px;
+}
+
+.Contact-icons{
+  margin-left: 20px;
+  color: white;
+  background-color: black;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.email:hover{
+  background-color: rgb(209, 51, 24);
+}
+
+.linkedin:hover{
+  background-color: rgb(2, 105, 153);
+}
+
+.t-x:hover{
+  background-color: white;
+  color: black;
+}
+
+.github:hover{
+  background-color: white;
+  color: black;
+}
+
+.insta:hover{
+  background-color: rgb(194, 10, 80);
+}
+
+.facebook:hover{
+  background-color: rgb(30, 30, 151);
 }
